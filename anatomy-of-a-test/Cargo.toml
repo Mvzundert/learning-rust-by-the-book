@@ -1,5 +1,5 @@
 [package]
-name = "anatomy-of-a-test"
+name = "anatomy_of_a_test"
 version = "0.1.0"
 edition = "2021"
 

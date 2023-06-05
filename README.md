@@ -6,3 +6,9 @@ Basic Hello World program with a crab
 
 ## Guessing-Game
 Game with a secret number which gives hints if the user is to low or to high
+
+## Anatomy of a test
+Diving into different kinds of tests
+
+## Minigrep
+Basic version of the Grep command, inspired by RipGrep

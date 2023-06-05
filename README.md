@@ -11,4 +11,4 @@ Game with a secret number which gives hints if the user is to low or to high
 Diving into different kinds of tests
 
 ## Minigrep
-Basic version of the Grep command, inspired by RipGrep
+Basic version of the Grep command, inspired by RipGre

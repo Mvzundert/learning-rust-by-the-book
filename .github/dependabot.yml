@@ -17,6 +17,10 @@ updates:
       - "Mvzundert"
     allow:
       - dependency-type: "direct"
-    ignore:
-      - update-types:
-          ["version-update:semver-minor", "version-update:semver-patch"]
+    groups:
+      cargo:
+        patterns:
+          - "*"
+        update-types:
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"

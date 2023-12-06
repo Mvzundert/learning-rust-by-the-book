@@ -22,5 +22,5 @@ updates:
         patterns:
           - "*"
         update-types:
-          - "version-update:semver-minor"
-          - "version-update:semver-patch"
+          - "minor"
+          - "patch"

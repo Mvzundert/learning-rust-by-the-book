@@ -5,20 +5,18 @@
 
 version: 2
 updates:
-  - package-ecosystem: cargo
-    directory: /
+  - package-ecosystem: "cargo"
+    directory: "/"
     schedule:
-      interval: daily
-      time: "15:03"
+      interval: "daily"
+      time: "15:10"
       timezone: "Europe/Amsterdam"
     assignees:
       - "Mvzundert"
     reviewers:
       - "Mvzundert"
-    groups:
-      cargo:
-        patterns:
-          - "*"
-        update-types:
-          - "minor"
-          - "patch"
+    allow:
+      - dependency-type: "direct"
+    ignore:
+      - update-types:
+          ["version-update:semver-minor", "version-update:semver-patch"]
